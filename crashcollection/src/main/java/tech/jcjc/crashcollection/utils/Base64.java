@@ -114,8 +114,8 @@ public class Base64 {
 		}  
 	}  
 	
-	public static void main(String args[]){
-		System.out.println(Base64.encode("123456".getBytes()));
-		System.out.println(new String(Base64.decode(Base64.encode("123456".getBytes()))));
-	}
+//	public static void main(String args[]){
+//		System.out.println(Base64.encode("123456".getBytes()));
+//		System.out.println(new String(Base64.decode(Base64.encode("123456".getBytes()))));
+//	}
 }  
