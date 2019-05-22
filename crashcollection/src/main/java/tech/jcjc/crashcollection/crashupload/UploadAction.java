@@ -17,8 +17,11 @@ import java.util.Map;
 import tech.jcjc.crashcollection.AppEnv;
 import tech.jcjc.crashcollection.collector.BaseInfoCollector;
 import tech.jcjc.crashcollection.interfaces.ICrashInterface;
+import tech.jcjc.crashcollection.utils.Base64;
 import tech.jcjc.crashcollection.utils.FileUtils;
 import tech.jcjc.crashcollection.utils.SecurityUtil;
+import tech.jcjc.crashcollection.utils.SystemUtil;
+import tech.jcjc.crashcollection.utils.ZipUtil;
 
 public class UploadAction {
     private static final String TAG = AppEnv.ISAPPDEBUG ? "UploadAction" : UploadAction.class.getSimpleName();
