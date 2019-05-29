@@ -19,6 +19,8 @@ import java.util.regex.Pattern;
 import tech.jcjc.crashcollection.AppEnv;
 import tech.jcjc.crashcollection.collector.ICrashCollector;
 import tech.jcjc.crashcollection.interfaces.ICrashInterface;
+import tech.jcjc.crashcollection.utils.FileUtils;
+import tech.jcjc.crashcollection.utils.ProcessLock;
 
 public class CrashCheckUpload {
     private static final String TAG = "CrashCheckUpload";
